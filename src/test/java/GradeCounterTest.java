@@ -3,6 +3,8 @@ import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertTrue;
+
 public class GradeCounterTest {
 
     @Test
@@ -35,6 +37,12 @@ public class GradeCounterTest {
     public void 최대학생수_확인(){
         GradeCounter gradeCounter = new GradeCounter(4);
         assertEquals(gradeCounter.maxNumberOfStudents(),4);
+    }
+
+    @Test
+    public void isEmpty_상태를_확인(){
+        GradeCounter gradeCounter = new GradeCounter(5);
+        assertTrue(gradeCounter.isEmpty());
     }
 
     @Test

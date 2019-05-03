@@ -153,7 +153,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556876795328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556877794604" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -177,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeCounterTest.최대학생수_확인">
+  <component name="RunManager" selected="JUnit.GradeCounterTest.isEmpty_상태를_확인">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,16 +240,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="AccountTest.계좌신규생성테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="realcoding" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AccountTest" />
-      <option name="METHOD_NAME" value="계좌신규생성테스트" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AccountTest.출금테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="realcoding" />
       <option name="PACKAGE_NAME" value="" />
@@ -300,21 +290,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.Student의_점수가_잘_들어갔는지_확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeCounterTest.isEmpty_상태를_확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="realcoding" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
-      <option name="METHOD_NAME" value="Student의_점수가_잘_들어갔는지_확인" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentTest.Student의_grade를_확인" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="realcoding" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StudentTest" />
-      <option name="METHOD_NAME" value="Student의_grade를_확인" />
+      <option name="MAIN_CLASS_NAME" value="GradeCounterTest" />
+      <option name="METHOD_NAME" value="isEmpty_상태를_확인" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GradeCounterTest.isEmpty_상태를_확인" />
         <item itemvalue="JUnit.GradeCounterTest.최대학생수_확인" />
         <item itemvalue="JUnit.StudentTest.점수에_음수가_들어가면_예외발생" />
         <item itemvalue="JUnit.GradeCounterTest.학생정보가_배열에_들어가는지_확인" />
         <item itemvalue="JUnit.GradeCounterTest.학생의_수가_잘_count되는지_확인" />
-        <item itemvalue="JUnit.StudentTest.Student의_grade를_확인" />
       </list>
     </recent_temporary>
   </component>
