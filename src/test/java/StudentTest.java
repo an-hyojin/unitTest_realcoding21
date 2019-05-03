@@ -24,14 +24,6 @@ public class StudentTest {
         assertThat(student.grade(), is('F'));
     }
 
-    @Test
-    public void setScore (int aScore) {
-        if(aScore<0) {
-            throw new IllegalArgumentException("점수가 음수임");
-        }
-        this._score = aScore;
-    }
-
     @Test(expected = IllegalArgumentException.class)
     public void 점수에_음수가_들어가면_예외발생(){
         Student student = new Student();
