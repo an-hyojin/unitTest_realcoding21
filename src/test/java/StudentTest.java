@@ -31,4 +31,11 @@ public class StudentTest {
         }
         this._score = aScore;
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void 점수에_음수가_들어가면_예외발생(){
+        Student student = new Student();
+        student.setScore(-10);
+        assertThat(student.score(), is(-10));
+    }
 }
