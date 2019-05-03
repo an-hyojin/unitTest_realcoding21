@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static junit.framework.TestCase.assertEquals;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 public class GradeCounterTest {
@@ -30,4 +31,9 @@ public class GradeCounterTest {
         assertThat(gradeCounter.studentWithOrderOf(1),is(student_02));
     }
 
+    @Test
+    public void 최대학생수_확인(){
+        GradeCounter gradeCounter = new GradeCounter(4);
+        assertEquals(gradeCounter.maxNumberOfStudents(),4);
+    }
 }
